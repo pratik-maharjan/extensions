@@ -1,0 +1,16 @@
+version: v1alpha1
+metadata:
+  name: usbip
+  version: "0.1.0"
+  author: Pratik Maharjan
+  description: |
+    [{{ .TIER }}] USB/IP client-side kernel modules (usbip-core, vhci-hcd) built against
+    a specific Talos version. Enables attaching remote USB devices over IP
+    via the Virtual Host Controller Interface.
+
+    Modules included:
+      - usbip-core: Core USB/IP transport layer
+      - vhci-hcd: Virtual Host Controller Interface driver
+  compatibility:
+    talos:
+      version: ">= v1.10.0"
