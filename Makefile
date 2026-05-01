@@ -1,6 +1,6 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED, PLEASE DO NOT EDIT.
 #
-# Generated on 2026-04-29T09:41:48Z by kres 980313d.
+# Generated on 2026-05-01T16:28:02Z by kres 1762ab2.
 
 # common variables
 
@@ -133,6 +133,7 @@ TARGETS += uhid
 TARGETS += uinput
 TARGETS += usb-modem-drivers
 TARGETS += usb-audio-drivers
+TARGETS += usbip
 TARGETS += util-linux-tools
 TARGETS += v4l-uvc-drivers
 TARGETS += vc4
